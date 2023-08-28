@@ -27,4 +27,9 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/db_integration")
+	public String welcome() {
+		return "Database integration done!";
+	}
+
 }
