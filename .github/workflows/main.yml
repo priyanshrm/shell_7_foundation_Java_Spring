@@ -3,7 +3,7 @@ name: Streamline Solutions Inc. CI/CD Workflow
 on:
   push:
     branches:
-      - main
+      - test
 
 jobs:
   ci-cd:
