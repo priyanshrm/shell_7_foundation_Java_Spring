@@ -27,4 +27,9 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/user_auth")
+	public String welcome() {
+		return "User authentication and security done!";
+	}
+
 }
