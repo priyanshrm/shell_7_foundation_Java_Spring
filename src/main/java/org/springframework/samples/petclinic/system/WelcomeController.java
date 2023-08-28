@@ -27,4 +27,9 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/cd_setup")
+	public String welcome() {
+		return "Continuous Development Setup done!";
+	}
+
 }
