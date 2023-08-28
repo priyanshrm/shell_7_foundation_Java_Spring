@@ -27,4 +27,11 @@ class WelcomeController {
 		return "welcome";
 	}
 
+	@GetMapping("/ci_setup")
+	public String welcome() {
+		return "Continuous Integration Setup Done!";
+	}
+
+	
+
 }
